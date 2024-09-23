@@ -28,7 +28,7 @@ export default function Testimonials() {
   return (
     <section className="relaive py-8">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center bg-gray-800 rounded-lg p-5 my-12 text-white">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold text-center bg-gray-800 rounded-lg p-5 my-10 text-white">What Our Clients Say</h2>
         {/* Horizontal Scroll Container */}
         <div className="flex md:grid md:grid-cols-3 gap-4 md:gap-8 overflow-x-auto md:overflow-visible scrollbar-hide">
           {testimonials.map((testimonial, index) => (
@@ -52,7 +52,7 @@ export default function Testimonials() {
                 />
                 <h3 className="text-xl font-semibold text-gray-100">{testimonial.name}</h3>
                 <p className="text-gray-400 mb-4">{testimonial.location}</p>
-                <p className="text-gray-300 text-xl line-clamp-5 ">{testimonial.text}</p>
+                <p className="text-gray-300 text-lg line-clamp-5 ">{testimonial.text}</p>
               </div>
             </div>
           ))}

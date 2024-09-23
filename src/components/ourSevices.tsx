@@ -18,23 +18,23 @@ export default function OurServices() {
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-transparent to-gray-900 opacity-70 rounded-lg"></div>
 
           <div className="relative z-10">
-            <h1 className="text-3xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
+            <h1 className="text-2xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
               Our Services
             </h1>
-            <ul className="space-y-4 text-lg">
-              <li className="text-2xl ">
+            <ul className="space-y-4">
+              <li className="text-lg ">
                 Aluminium Fabrications
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Stainless Steel Installation
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Suspended Ceiling Installation
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Structural Cladding
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 General Contracting and Consultations
               </li>
             </ul>
@@ -54,29 +54,26 @@ export default function OurServices() {
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-transparent to-gray-900 opacity-70 rounded-lg"></div>
 
           <div className="relative z-10 ">
-            <h3 className="text-3xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
+            <h3 className="text-2xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
               Customization Options
             </h3>
-            <ul className="space-y-4 text-lg">
-              {/* <li className="hover:text-gray-400 transition-all ease-in">
-                Colors, finishes, and designs to match your style.
-              </li> */}
-              <li className="text-2xl ">
+            <ul className="space-y-4">
+              <li className="text-lg ">
                 Cutting wall / Frameless windows
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Double-hung casement
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Single-hung casement
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Sliding windows
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Projected windows
               </li>
-              <li className="text-2xl ">
+              <li className="text-lg ">
                 Arches, Curves finishing, and more...
               </li>
             </ul>

@@ -30,7 +30,7 @@ export default function AboutPage() {
             <h2 className="text-4xl font-semibold text-gray-100 mb-4">Joshua Jatto</h2>
             <h3 className="text-xl text-gray-400 mb-4">Founder & CEO</h3>
             <p className="text-gray-300 text-lg leading-relaxed">
-              With over a decade of experience in the construction industry, Jatto has led Jatto Constructions from a small startup of grpup of boys
+              With almost a decade of experience in the construction industry, Jatto has led Jatto Constructions from a small startup of grpup of boys
               to experts leading provider of aluminum fabrications and contracting services. His passion for quality, innovation, and client 
               satisfaction drives everything we do.
             </p>
