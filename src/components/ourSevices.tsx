@@ -1,5 +1,6 @@
 import React from "react";
 import GetInTouch from "./getInTouch";
+import { Link } from "react-router-dom";
 
 export default function OurServices() {
   return (
@@ -15,9 +16,10 @@ export default function OurServices() {
             }}
         >
           {/* Gradient Overlay */}
+         
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-transparent to-gray-900 opacity-70 rounded-lg"></div>
 
-          <div className="relative z-10">
+          <Link to={'/gallery'} className="relative z-10">
             <h1 className="text-2xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
               Our Services
             </h1>
@@ -38,7 +40,7 @@ export default function OurServices() {
                 General Contracting and Consultations
               </li>
             </ul>
-          </div>
+          </Link>
         </div>
 
         {/* Customization Options Card */}
@@ -53,7 +55,7 @@ export default function OurServices() {
           {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-transparent to-gray-900 opacity-70 rounded-lg"></div>
 
-          <div className="relative z-10 ">
+          <Link to={'/gallery'} className="relative z-10 ">
             <h3 className="text-2xl font-bold mb-6 text-gray-100 ring ring-white p-3 w-auto">
               Customization Options
             </h3>
@@ -79,7 +81,7 @@ export default function OurServices() {
             </ul>
         
 
-          </div>
+          </Link>
           
         </div>
       </div>
