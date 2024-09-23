@@ -5,7 +5,7 @@ import { whatsappUrl } from "./getInTouch";
 export default function Footer() {
   return (
     <footer className="relative bottom-0  text-white py-5  px-4" style={{
-      backgroundImage: `url(/public/asset/landing/art-tools-mini.png)`,
+      backgroundImage: `url(/asset/landing/art-tools-mini.png)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}>

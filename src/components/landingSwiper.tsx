@@ -64,23 +64,21 @@ const workCollections = [
 
 const LandingPage: React.FC = () => {
   return (
-    <div>
+    <div className="relative">
       {/* Greeting Message */}
-      <div className="absolute z-10 p-5 pb-0 top-[30em] md:top-[20em] lg:top-[50vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center ring ring-white text-white  lg:p-10 md:p-5 overflow-y-hidden">
-        <div className="absolute bg-black opacity-10"></div>
+      <div className="absolute z-10 p-5 top-[45vh] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center ring ring-white text-white max-w-md md:max-w-xl lg:max-w-2xl lg:p-10 md:p-5">
         <h1
-          className="text-5xl font-bold my-5"
+          className="text-xl font-bold my-3"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         >
           Beautiful, Durable Windows for Every Home
         </h1>
         <p
-          className="text-lg line-clamp-3 font-bold"
+          className="text-md line-clamp-3 font-bold"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
         >
           We offer the best window solutions for residential and commercial
           buildings, ensuring quality and customer satisfaction.
-          {/* Discover the best and get inspired by a brand you can trust. */}
         </p>
 
         <GetInTouch />
