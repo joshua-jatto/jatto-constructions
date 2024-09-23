@@ -1,5 +1,4 @@
 import React from "react";
-import Swippa from "./Swiper";
 import GetInTouch from "./getInTouch";
 
 export default function OurServices() {

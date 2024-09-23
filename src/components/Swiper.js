@@ -1,15 +1,10 @@
-
+"use strict";
 // import React from 'react'
-
-
 // import { Swiper, SwiperSlide } from "swiper/react";
 // // import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
 // // Import Swiper styles
 // import "swiper/css";
-
 // import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
-
 // // Sample images and titles
 // const workCollections = [
 //   {
@@ -28,7 +23,6 @@
 //     imageUrl: "/asset/work/IMG-20240507-WA0003.jpg",
 //   },
 // ];
-
 // export default function Swippa() {
 //   return (
 // <div className="relative h-screen ">
