@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="container mt-30 mx-auto flex flex-col items-center">
         {/* Company Overview */}
         <div className="mb-12 max-w-4xl text-center">
-          <h1 className="text-3xl font-bold text-gray-100 my-8">About Jatto Constructions</h1>
+          <h1 className="text-3xl font-bold text-gray-100 my-8">About JaTTo Constructions</h1>
           <p className="text-gray-300 text-lg leading-relaxed">
             At Jatto Constructions, we specialize in aluminum fabrications, structural cladding, suspended ceiling installation, and general contracting. 
             With over 10 years of experience, our mission is to provide top-quality services that meet your aesthetic and functional needs.
