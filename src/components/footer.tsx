@@ -48,7 +48,7 @@ export default function Footer() {
           <p className="mb-2">Phone: +234 812 7967 257</p>
           <p className="mb-2">Email: j.j.jatto@gmail.com</p>
 
-          <p  className="mb-2"> <a
+          <p  className="mb-2 text-green-600"> <a
               href= {whatsappUrl}
              target="_blank"
             >
