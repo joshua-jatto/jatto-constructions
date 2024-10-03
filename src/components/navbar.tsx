@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
               to="https://joshua-jatto.github.io/JLABS-Speedy_ACP/"
               className="text-white text-sm hover:text-blue-500  cursor-pointer"
             >
-             Try-Speedy
+             Try Speedy DIY
             </Link>
           </div>
 
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
               className="block py-2 text-white  hover:text-blue-500 cursor-pointer"
               onClick={toggleMenu} // Close menu after click
             >
-              Try-Speedy
+              Try Speedy DIY
             </Link>
             <a
               href={whatsappUrl}
